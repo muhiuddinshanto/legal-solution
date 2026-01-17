@@ -16,12 +16,13 @@
     display: flex;
     align-items: center;
   }
-  .nav-container, .hero-banner {
+  .nav-container, 
+  .hero-banner {
     width: 95%;
     margin: 30px auto;
   }
   /* Banner-risponsive-style */
-  .hero-banner {
+  .hero-banner{
     height: 650px;
     justify-content: center;
   }
@@ -62,9 +63,29 @@
 .card:nth-child(5n) {
     border-bottom: 1px solid var(--dark06-color); ;
 }
-/* .card:nth-child(6n) {
-    border-bottom:  ;
-} */
+  
+/* our-client-resposive-style */
+   .our-client {
+    width: 90%;
+    justify-content: center;
+   }
+   .client-text {
+    max-width: 450px;
+   }
+    .client-image{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .image-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 200px;
+        margin: 0 auto;
+    }   
+    
+    
+
+
 }
 
 

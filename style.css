@@ -247,10 +247,13 @@
     inset: 0;
     position: absolute;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.6),#00000099  );
+    overflow: hidden;
 
 }
 .image-container {
-    z-index: 2;
+    padding-top: 150px;
+    z-index: 1;
+    position: relative;
 }
 
 .image-title {
