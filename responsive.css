@@ -1,0 +1,213 @@
+.hidden{
+    display: none;
+}
+
+@media (max-width: 577px) {
+  .nav-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav-link {
+    display: flex;
+    align-items: center;
+  }
+  .nav-container, .hero-banner {
+    width: 95%;
+    margin: 30px auto;
+  }
+  /* Banner-risponsive-style */
+  .hero-banner {
+    height: 650px;
+    justify-content: center;
+  }
+  .banner-container {
+    padding: 30px 30px 30px 30px;
+  } 
+  .banner-title {
+    font-size: 50px;
+  }
+  .banner-text {
+    font-size: 14px;
+  }
+  .banner-input input {
+    margin-bottom: 20px;
+    height: 80px;
+  }
+  .btn-banner {
+    padding: 15px 100px;
+    font-size: 25px;
+
+  }
+
+  /* legal-practice-responsive-style */
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card:nth-child(3n) {
+    border-right: 1px solid var(--dark06-color); ;
+    /* border-top: ; */
+}
+.card:nth-child(1n) {
+    border-left: 1px solid var(--dark06-color); ;
+    /* border-top: ; */
+}
+.card:nth-child(4n) {
+    border-bottom: 1px solid var(--dark06-color); ;
+}
+.card:nth-child(5n) {
+    border-bottom: 1px solid var(--dark06-color); ;
+}
+/* .card:nth-child(6n) {
+    border-bottom:  ;
+} */
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .nav-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .nav-link {
+    display: flex;
+    align-items: center;
+  }
+  .nav-container, .hero-banner {
+    width: 95%;
+    margin: 30px auto;
+  }
+  /* Banner-risponsive-style */
+  .hero-banner {
+    height: 650px;
+  }
+  .banner-container {
+    padding: 30px 30px 30px 30px;
+  } 
+  .banner-input input {
+    margin-bottom: 20px;
+    height: 80px;
+  }
+  .btn-banner {
+    padding: 15px 100px;
+    font-size: 25px;
+
+  }
+  /* legal-practice-responsive-style */
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+    .card:nth-child(3n) {
+    border-right: 1px solid var(--dark06-color); ;
+    /* border-top: ; */
+}
+.card:nth-child(1n) {
+    border-left: 1px solid var(--dark06-color); ;
+    /* border-top: ; */
+}
+.card:nth-child(4n) {
+    border-bottom: 1px solid var(--dark06-color); ;
+}
+.card:nth-child(5n) {
+    border-bottom: 1px solid var(--dark06-color); ;
+}
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+   .nav-container, .legal-practice {
+    width: 95%;
+    margin: 30px auto;
+  }
+  .nav-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .nav-link {
+    display: flex;
+    align-items: center;
+  }
+  /* Banner-risponsive-style */
+  .hero-banner {
+    width: 90%;
+  }
+  .banner-container {
+    padding: 30px 30px 30px 30px;
+  } 
+  .banner-input input {
+    margin-bottom: 20px;
+    height: 80px;
+  }
+  .btn-banner {
+    padding: 25px 100px;
+    font-size: 25px;
+  }
+  /* legal-practice-responsive-style */
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+     .card:nth-child(3n) {
+    border-right: 1px solid var(--dark06-color); ;
+
+}
+.card:nth-child(1n) {
+    border-left: 1px solid var(--dark06-color); ;
+
+}
+.card:nth-child(4n) {
+    border-bottom: 1px solid var(--dark06-color); ;
+}
+
+}
+
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .nav-container {
+    width: 95%;
+    margin: 30px auto;
+  }
+  /* Banner-risponsive-style */
+  .hero-banner {
+    width: 90%;
+  }
+  .banner-container {
+    padding: 30px 30px 30px 30px;
+  } 
+  .banner-input input {
+    margin-bottom: 20px;
+    height: 80px;
+  }
+  .btn-banner {
+    padding: 25px 60px;
+    font-size: 20px;
+
+  }
+    /* legal-practice-responsive-style */
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+     .card:nth-child(3n) {
+    border-right: 1px solid var(--dark06-color); ;
+
+}
+.card:nth-child(1n) {
+    border-left: 1px solid var(--dark06-color); ;
+
+}
+.card:nth-child(4n) {
+    border-bottom: 1px solid var(--dark06-color); ;
+}
+}
+
+
+@media (min-width: 1201px) {
+  .banner-container {
+    padding: 30px 30px 30px 30px;
+  } 
+}
